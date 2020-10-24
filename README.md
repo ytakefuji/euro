@@ -14,6 +14,7 @@ euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2
 For fitting func(a*x*x*x+b*x*x+c*x+d):
 a=0.002003539248547459 b=-0.9077447589323873 c=134.36788967707497 d=-6129.516347813743
 
+# euro.py
 <pre>
 import pandas as pd
 import numpy as np
@@ -34,9 +35,9 @@ plt.plot(x,func(x,a,b,c,d))
 plt.show()
 </pre>
 
+# curve_fit using scipy
 <pre>
-
-    Algorithm to perform minimization.
+    Algorithm to perform minimization in curve_fit of scipy.optimize library.
 
             ‘trf’ : Trust Region Reflective algorithm, particularly suitable for large sparse problems with bounds. Generally robust method.
 
