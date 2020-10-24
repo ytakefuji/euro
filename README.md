@@ -7,6 +7,17 @@ euro0.png is the number of daily deaths due to covid-19 from Feb.25 to Oct. 23 i
 <img src="./euro0.png" height=400 width=400>
 
 euro0.py is a program to plot the graph of daily deaths from feb. 25 to Oct. 23 in 2020.
+# euro0.py
+<pre>
+import pandas as pd
+import numpy as np
+data=pd.read_csv("euro.csv")
+y=data["death"]
+x=np.arange(0,240)
+import matplotlib.pyplot as plt
+plt.plot(x,y)
+plt.show()
+</pre>
 
 euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2020.
 <img src="./euro.png" height=400 width=400>
