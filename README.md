@@ -67,9 +67,9 @@ Default is ‘trf’.
 
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (30 days) and that on dec.23 (60 days) from Oct. 22 in 2020 respectively.
 
-If we keep the same policy and attitudes in Europe, 
+# If we keep the same policy and attitudes in Europe, 
 # 3410 daily deaths on Nov. 23 and 
 # 6579 daily deaths on Dec. 23 in Europe
-are predicted based on the fitting function.
+# are predicted based on the fitting function.
 
 
