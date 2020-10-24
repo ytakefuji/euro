@@ -14,6 +14,19 @@ euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2
 For fitting func(a*x*x*x+b*x*x+c*x+d):
 a=0.002003539248547459 b=-0.9077447589323873 c=134.36788967707497 d=-6129.516347813743
 
+<pre>
+
+    Algorithm to perform minimization.
+
+            ‘trf’ : Trust Region Reflective algorithm, particularly suitable for large sparse problems with bounds. Generally robust method.
+
+            ‘dogbox’ : dogleg algorithm with rectangular trust regions, typical use case is small problems with bounds. Not recommended for problems with rank-deficient Jacobian.
+
+            ‘lm’ : Levenberg-Marquardt algorithm as implemented in MINPACK. Doesn’t handle bounds and sparse Jacobians. Usually the most efficient method for small unconstrained problems.
+
+    Default is ‘trf’. 
+</pre>
+
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (30 days) and on dec.23 (60 days) from Oct. 22 in 2020.
 
 If we keep the same policy and attitudes in Europe, 
