@@ -8,7 +8,7 @@ euro.csv data can be obtained from statista:
 https://www.statista.com/statistics/1102288/coronavirus-deaths-development-europe/
 
 
-euro0.png is the number of daily deaths due to covid-19 from Feb.25 to Oct. 23 in 2020.
+euro0.png is the number of daily deaths due to covid-19 from Feb.25 to Oct. 23 in 2020. X-ais indicates the number of the xth day from Feb. 25 and Y-axis is the number of daily deaths in Europe due to the COVID-19.
 <img src="./euro0.png" height=400 width=400>
 
 euro0.py is a program to plot the graph of daily deaths from feb. 25 to Oct. 23 in 2020.
