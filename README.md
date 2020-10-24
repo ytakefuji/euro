@@ -69,7 +69,7 @@ Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (
 
 If we keep the same policy and attitudes in Europe, 
 # 3410 daily deaths on Nov. 23 and 
-# 6579 daily deaths on Dec. 23 
+# 6579 daily deaths on Dec. 23 in Europe
 are predicted based on the fitting function.
 
 
