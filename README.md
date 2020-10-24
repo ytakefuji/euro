@@ -53,6 +53,7 @@ plt.show()
 </pre>
 
 # curve_fit using scipy
+The objective of curve fitting is to theoretically describe experimental data with a model (function) and to  find the  parameters  associated  with  this  model. The method of least squares determines the coefficients such that the sum of the square of the deviations between the data and the curve-fit is minimized.
 <pre>
 Algorithm to perform minimization in curve_fit of scipy.optimize library.
 
