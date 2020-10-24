@@ -62,12 +62,14 @@ Algorithm to perform minimization in curve_fit of scipy.optimize library.
 
     ‘lm’ : Levenberg-Marquardt algorithm as implemented in MINPACK. Doesn’t handle bounds and sparse Jacobians. Usually the most efficient method for small unconstrained problems.
 
-    Default is ‘trf’. 
+Default is ‘trf’. 
 </pre>
 
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (30 days) and that on dec.23 (60 days) from Oct. 22 in 2020 respectively.
 
 If we keep the same policy and attitudes in Europe, 
-3410 deaths on Nov. 23 and 6579 deaths on Dec. 23 are predicted based on the fitting function.
+# 3410 daily deaths on Nov. 23 and 
+# 6579 daily deaths on Dec. 23 
+are predicted based on the fitting function.
 
 
