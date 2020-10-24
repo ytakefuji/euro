@@ -3,6 +3,11 @@ The resurgence of covid-19 pandemic can be found in Europe.
 
 euro.csv is the number of daily deaths in Europe from Feb.25 to Oct. 23 in 2020.
 
+euro.csv data can be obtained from statista:
+
+https://www.statista.com/statistics/1102288/coronavirus-deaths-development-europe/
+
+
 euro0.png is the number of daily deaths due to covid-19 from Feb.25 to Oct. 23 in 2020.
 <img src="./euro0.png" height=400 width=400>
 
