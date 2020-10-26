@@ -63,6 +63,10 @@ Algorithm to perform minimization in curve_fit of scipy.optimize library.
 Default is ‘trf’. 
 </pre>
 
+# practice
+You should modify my euro.py program to show the following picture.
+<img src="./euro1.png" height=400 width=400>
+
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (30 days) and that on dec.23 (60 days) from Oct. 22 in 2020 respectively.
 
 # If we keep the same policy and attitudes in Europe, 
