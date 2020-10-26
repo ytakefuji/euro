@@ -63,7 +63,7 @@ Algorithm to perform minimization in curve_fit of scipy.optimize library.
 Default is ‘trf’. 
 </pre>
 
-# practice
+# practice for students
 You should modify my euro.py program to show the following picture.
 
 <img src="./euro1.png" height=400 width=400>
