@@ -35,20 +35,27 @@ a=0.002003539248547459 b=-0.9077447589323873 c=134.36788967707497 d=-6129.516347
 <pre>
 import pandas as pd
 import numpy as np
+from scipy.optimize import curve_fit
+import matplotlib.pyplot as plt
 data=pd.read_csv("euro.csv")
-y=data["death"][120:240]
-x=np.arange(120,240)
+n=len(data)
+y=data["death"][120:n]
+x=np.arange(120,n)
 from scipy.optimize import curve_fit
 def func(x,a,b,c,d):
  return a*x*x*x+b*x*x+c*x+d
 param=curve_fit(func,x,y)
 [a,b,c,d]=param[0]
 print(a,b,c,d)
-import matplotlib.pyplot as plt
-print("Nov. 23 deaths",int(func(270,a,b,c,d)))
-print("Dec. 23 deaths",int(func(300,a,b,c,d)))
-plt.plot(x,y)
-plt.plot(x,func(x,a,b,c,d))
+print(data["date"][n-1]+' after 1 week',int(func(n+6,a,b,c,d)))
+print(data["date"][n-1]+' after 2 weeks',int(func(n+13,a,b,c,d)))
+print(data["date"][n-1]+' after 3 weeks',int(func(n+20,a,b,c,d)))
+plt.plot(x,y,'b')
+x1=np.arange(120,n+25)
+plt.plot(n+6,func(n+6,a,b,c,d),'ro')
+plt.plot(n+13,func(n+13,a,b,c,d),'ro')
+plt.plot(n+20,func(n+20,a,b,c,d),'ro')
+plt.plot(x1,func(x1,a,b,c,d),'r')
 plt.show()
 </pre>
 
@@ -68,11 +75,12 @@ You should modify my euro.py program to show the following picture.
 
 <img src="./euro1.png" height=400 width=400>
 
-Based on the fitting func, euro.py can predict the number of deaths on Nov. 23 (30 days) and that on dec.23 (60 days) from Oct. 22 in 2020 respectively.
+Based on the fitting func, euro.py can predict the number of deaths on Nov. 4, Nov. 11, and Nov. 18 in 2020 respectively.
 
 # If we keep the same policy and attitudes in Europe, 
-# 3410 daily deaths on Nov. 23 and 
-# 6579 daily deaths on Dec. 23 in Europe
+# 2455 daily deaths on Nov. 4 and 
+# 3009 daily deaths on Nov. 11 in Europe
+# 3648 daily deaths on Nov. 18 in Europe
 # are predicted based on the fitting function.
 
 
