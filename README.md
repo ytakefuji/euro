@@ -69,6 +69,8 @@ You should modify my euro.py program to show the following picture.
 
 <img src="./euro1.png" height=400 width=400>
 
+# euro.tar is the solution for practice.
+
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 4, Nov. 11, and Nov. 18 in 2020 respectively.
 
 # If we keep the same policy and attitudes in Europe, 
