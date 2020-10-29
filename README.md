@@ -26,7 +26,7 @@ plt.show()
 </pre>
 
 euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2020.
-<img src="./euro.png" height=400 width=400>
+<img src="./euro1.png" height=400 width=400>
 
 For fitting func(a*x*x*x+b*x*x+c*x+d):
 a=0.002003539248547459 b=-0.9077447589323873 c=134.36788967707497 d=-6129.516347813743
