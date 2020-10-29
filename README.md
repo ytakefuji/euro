@@ -25,7 +25,7 @@ plt.plot(x,y)
 plt.show()
 </pre>
 
-euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2020.
+euro.py is a prediction program for fitting the last 120 days as of Oct. 28 in 2020.
 
 <img src="./fit.png" height=400 width=400>
 
