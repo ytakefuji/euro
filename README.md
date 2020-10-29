@@ -1,7 +1,7 @@
 # euro
 The resurgence of covid-19 pandemic can be found in Europe.
 
-euro.csv is the number of daily deaths in Europe from Feb.25 to Oct. 23 in 2020.
+euro.csv is the number of daily deaths in Europe from Feb.25 to Oct. 28 in 2020.
 
 euro.csv data can be obtained from statista:
 
@@ -12,7 +12,7 @@ euro0.png is the number of daily deaths due to covid-19 from Feb.25 to Oct. 23 i
 
 <img src="./euro0.png" height=400 width=400>
 
-euro0.py is a program to plot the graph of daily deaths from feb. 25 to Oct. 23 in 2020.
+euro0.py is a program to plot the graph of daily deaths from feb. 25 to Oct. 28 in 2020.
 # euro0.py
 <pre>
 import pandas as pd
@@ -26,7 +26,7 @@ plt.show()
 </pre>
 
 euro.py is a prediction program for fitting the last 120 days as of Oct. 22 in 2020.
-<img src="./euro1.png" height=400 width=400>
+<img src="./fit.png" height=400 width=400>
 
 For fitting func(a*x*x*x+b*x*x+c*x+d):
 a=0.002003539248547459 b=-0.9077447589323873 c=134.36788967707497 d=-6129.516347813743
@@ -47,15 +47,9 @@ def func(x,a,b,c,d):
 param=curve_fit(func,x,y)
 [a,b,c,d]=param[0]
 print(a,b,c,d)
-print(data["date"][n-1]+' after 1 week',int(func(n+6,a,b,c,d)))
-print(data["date"][n-1]+' after 2 weeks',int(func(n+13,a,b,c,d)))
-print(data["date"][n-1]+' after 3 weeks',int(func(n+20,a,b,c,d)))
+...
 plt.plot(x,y,'b')
-x1=np.arange(120,n+25)
-plt.plot(n+6,func(n+6,a,b,c,d),'ro')
-plt.plot(n+13,func(n+13,a,b,c,d),'ro')
-plt.plot(n+20,func(n+20,a,b,c,d),'ro')
-plt.plot(x1,func(x1,a,b,c,d),'r')
+...
 plt.show()
 </pre>
 
