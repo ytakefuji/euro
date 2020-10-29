@@ -74,7 +74,7 @@ You should modify my euro.py program to show the following picture.
 Based on the fitting func, euro.py can predict the number of deaths on Nov. 4, Nov. 11, and Nov. 18 in 2020 respectively.
 
 # If we keep the same policy and attitudes in Europe, 
-# 2455 daily deaths on Nov. 4 and 
+# 2455 daily deaths on Nov. 4 in Europe 
 # 3009 daily deaths on Nov. 11 in Europe
 # 3648 daily deaths on Nov. 18 in Europe
 # are predicted based on the fitting function.
