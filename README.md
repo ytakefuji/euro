@@ -1,5 +1,5 @@
 # euro
-In order to run Python programs, see the following site for novice:
+In order to run Python programs, see the following site for novice to install the necessary libraries:
 https://github.com/ytakefuji/python-novice
 
 The resurgence of covid-19 pandemic can be found in Europe.
