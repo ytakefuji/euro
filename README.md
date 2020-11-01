@@ -1,4 +1,7 @@
 # euro
+In order to run Python programs, see the following site for novice:
+https://github.com/ytakefuji/python-novice
+
 The resurgence of covid-19 pandemic can be found in Europe.
 
 euro.csv is the number of daily deaths in Europe from Feb.25 to Oct. 28 in 2020.
