@@ -77,7 +77,6 @@ You should modify my euro.py program to show the following picture.
 
 <img src="euro.png" height=400 width=400>
 
-Based on the fitting func, euro.py can predict the number of deaths on Nov. 11, Nov. 14, and Nov. 18 in 2020 respectively.
 
 
 
